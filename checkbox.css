@@ -1,0 +1,28 @@
+QTreeWidget::indicator {
+    width: 15px;
+    height: 15px;
+}
+
+QTreeWidget::indicator:unchecked {
+    image: url(unlock.svg);
+}
+
+QCheckBox::indicator:unchecked:hover {
+    image: url(unlock.svg);
+}
+
+QCheckBox::indicator:unchecked:pressed {
+    image: url(unlock.svg);
+}
+
+QTreeWidget::indicator:checked {
+    image: url(lock.svg);
+}
+
+QCheckBox::indicator:checked:hover {
+    image: url(lock.svg);
+}
+
+QCheckBox::indicator:checked:pressed {
+    image: url(lock.svg);
+}
